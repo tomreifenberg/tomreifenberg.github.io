@@ -5,9 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Tom Reifenberg page">
         <meta name="keywords" content="full stack, web developer, full stack web developer">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
        <title>Tom Reifenberg Contact</title>
     </head>
     <body>
+      <header>
+        <span class="logo">Tom Reifenberg</span>
+        <a id="toggleMenu">Menu<a>   
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      </header>
         <nav>
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -17,6 +33,7 @@
           </nav>
           
         <!-- layout and content goes here-->
+        <main>
         <p>Full Stack web developer with focus on full stack JavaScript application and architectures. Well versed in a wide range of programming languages and experienced in every stage of the development life cycle. Certified Scrum Master (CSM).</p>
         <form action="https://formspree.io/reifenberg.57@gmail.com" method="POST">
         <div>
@@ -40,6 +57,23 @@
         <input type="text" name="_gotcha" style="display:none">
         <input type="hidden" name="_next" value="//tomreifenberg.github.io/thanks.html">
       </form>
+    </main>
+
+      <script>
+
+        var toggleMenu = document.getElementById('toggleMenu');
+        var nav = document.querySelector('nav');
+        toggleMenu.addEventListener(
+          'click',
+          function(){
+            if(nav.style.display=='block'){
+              nav.style.display='none';
+            }else{
+              nav.style.display='block';
+            }
+          }
+        );
+      </script>
 
         
 
