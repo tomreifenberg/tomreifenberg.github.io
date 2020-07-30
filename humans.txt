@@ -1,0 +1,14 @@
+/* TEAM */
+Your title: Tom Reifenberg.
+Site: reifeberg.57@gmail.com, link to a /contact.html
+Twitter: tomtheplantsman.
+Location: Chicago, IL.
+
+/* THANKS */
+Name: Tom Reifenberg
+
+/* SITE */
+Last update: 2020/07/30
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+Software: Software used for the development

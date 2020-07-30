@@ -1,0 +1,4 @@
+Contact: reifenberg.57@gmail.com
+Acknowledgments: https://tomreifenberg.github.io/thanks.html
+Preferred-Languages: en
+Canonical: https://tomreifenberg.github.io/security.txt
