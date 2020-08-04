@@ -17,7 +17,7 @@
 
 header {
     height: 50px;
-    background: #000;
+    background: #013fa2;
     color: #fff;
     padding: 0 .5rem 0 1rem;
   }
@@ -85,7 +85,7 @@ header {
     nav {
       position: absolute;
       display: none;
-      background: #000;
+      background: #013fa2;
       top: 50px;
       left: 0;
       right: 0;
