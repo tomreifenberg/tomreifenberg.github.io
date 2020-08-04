@@ -15,6 +15,13 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
 header {
     height: 50px;
     background: #013fa2;
