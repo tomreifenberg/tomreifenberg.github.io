@@ -36,7 +36,29 @@
         <main>
         <p>Full Stack web developer with focus on full stack JavaScript application and architectures. Well versed in a wide range of programming languages and experienced in every stage of the development life cycle. Certified Scrum Master (CSM).</p>
         <form action="https://formspree.io/reifenberg.57@gmail.com" method="POST">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name">
+        </div>
         <div>
+            <label for="email">Email</label>
+            <input id="email" type="text" name="_replyto">  
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <div>
+            Upload Your file:
+            <input type="file" name="upload accept="image/png, image/jpeg">            
+        </div>
+        <div>
+            <input type="hidden" name="_subject" value="New submission!">
+        </div>
+        <div>
+            <input type="submit" value="Send">
+        </div>
+        <!-- <div>
           <label for="name">Name</label>
           <input id="name" type="text" name="name">
         </div>
@@ -53,7 +75,7 @@
         </div>
         <div>
           <input type="submit" value="Send">
-        </div>
+        </div> -->
         <input type="text" name="_gotcha" style="display:none">
         <input type="hidden" name="_next" value="//tomreifenberg.github.io/thanks.html">
       </form>
