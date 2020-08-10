@@ -7,6 +7,7 @@
   body{
     padding: 0;
     margin: 0;
+    padding-bottom: 50px;
   }
 
   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -137,8 +138,4 @@ th {
 
 .col {
   display: table-cell; /* Make elements inside the container behave like table cells */
-}
-
-.paddingbottom {
-  padding-bottom: 50px;
 }
