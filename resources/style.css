@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.avatar {
+  border-radius: 50%;
+  float: left;
+  margin-right: 1em;
+  width: 10rem;
+
+}
+
+/* PADDING BENEATH EACH SECTION */
+section {
+  padding-bottom: 20px;
+}
+
+
+.navbar
+{
+    background-color: transparent;
+}
+
+/* HERO LANDING PAGE */
+
+#thehero {
+  width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/picturedrocks.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  .the-inner h1{
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  line-height: 1.4;
+  font-size: 2.1rem;
+  
+  }
+  
+  .the-inner p {
+  color: #dddddd;
+  text-align: center;
+  font-size: 1.5rem;  
+  }
+  
+  .the-inner a {
+  color: #ffffff;
+  }
+  
+  .the-inner .points p:before{
+    content: url(https://chrislanejones.com/wp-content/uploads/2018/10/littlesquarebullet.png);
+    padding: 0 1rem 0 0;
+  }
+
+
+  /* .icofont-linkedin:before {
+    content: "\ed46";
+}
+  .icofont-instagram:before {
+    content: "\ed46";
+} */
+  

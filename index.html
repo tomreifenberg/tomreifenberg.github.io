@@ -10,30 +10,117 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
+        <!-- <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./resources/style.css">
+
 
        <title>Github Page - Tom Reifenberg</title>
     </head>
     <body>
-        <header>
-            <span class="logo">Tom Reifenberg - Software Engineering</span>
-            <a id="toggleMenu">Menu</a>   
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-          </header>
-          <main>
-          <h1>Hello, I am Tom Reifenberg</h1>
-          <img class="avatar" src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" alt="My Avatar">
-          <!-- <img src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" alt="My Avatar"> -->
-          <p>Full Stack web developer with focus on full stack JavaScript application and architectures. Well versed in a wide range of programming languages and experienced in every stage of the development life cycle.</p>
-        </main>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">Tom Reifenberg - Software Engineering</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<!-- HERO BACKGROUND IMAGE WITH MEDIA LINKS -->
+      <section id="thehero">
+        <div class="the-inner">
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+        <h1>Tom Reifenberg</h1>
+        </div>
+        </div>
+            <div class="row">
+        <div class="col-lg-12">
+          <p>Full Stack Web Development, Landscape Architecure, and Information Security</p>
+        </div>
+        </div>
+
+        <div class="mb-3">
+          <a class="btn btn-primary" href="https://tomreifenberg.github.io/vanilla-apod/" role="button">NASA Picture of the Day</a>
+          <a class="btn btn-primary" href="https://tomreifenberg.github.io/draw/program.html" role="button">Abstract Art Canvas</a>
+          <a class="btn btn-primary" href="https://tomreifenberg.github.io/game/" role="button">Meteor Dodge</a>
+        </div>
+        
+        <div class="social-links mb-2">
+          <a target="_blank" href="https://github.com/tomreifenberg" class="fa fa-github fa-2x fa-fw"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/tomreifenberg/"><i class="fa fa-linkedin fa-2x fa-fw"></i></a>
+          <a target="_blank" href="https://www.twitter.com/tomtheplantsman/" ><i class="fa fa-twitter fa-2x fa-fw"></i></a>
+          <a target="_blank" href="https://medium.com/@reifenberg.57"><i class="fa fa-medium fa-2x fa-fw"></i></a>
+        </div>
+
+        <!-- <div class="row points">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-md-offset-.5">
+              <p>Available After Midnight</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-md-offset-.5">
+              <p>100% Apple & Mac</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-md-offset-.5">
+              <p>TLDs With .io Only</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-md-offset-.5">
+              <p>Support Via Slack</p>
+            </div>
+          </div> -->
+        </div>
+        </div>
+        </section>
+
+
+      <!-- <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Curious about my work?</h5>
+              <p class="card-text">Take a look at my experiences.</p>
+              <a href="resume.html" class="btn btn-primary">Work History</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Want to get in touch?</h5>
+              <p class="card-text">Send a note through my contact page for a speedy response.</p>
+              <a href="contact.html" class="btn btn-primary">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+<!--     
+
+
         <!-- layout and content goes here-->
-        <script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+       
+       <script>
 
             var toggleMenu = document.getElementById('toggleMenu');
             var nav = document.querySelector('nav');

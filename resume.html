@@ -9,42 +9,52 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
+        <!-- <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
        <title>Tom Reifenberg Resume</title>
     </head>
     <body>
-      <header>
-        <span class="logo">Tom Reifenberg - Software Engineering</span>
-        <a id="toggleMenu">Menu<a>   
-    <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      </header>
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
-<main>
+        <a class="navbar-brand" href="#">Tom Reifenberg - Software Engineering</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<main class="p-5">
   <section>
+
     <!-- layout and content goes here-->
-    <h1 class="title">Tom Reifenberg</h1>
-    <div class="inline">
-      <a  href="https://www.linkedin.com/in/tomreifenberg/" target="_blank" rel="noopener">LinkedIn </a> <p>|</p>
-      <a  href="https://github.com/tomreifenberg" target="_blank" rel="noopener"> GitHub</a>
-        <p>| Chicago, IL | tomreifenberg@outlook.com</p>
-    </div>
+    <!-- <h1 class="title">Tom Reifenberg</h1> -->
+    <ul class="list-inline">
+      <a class="list-inline-item" href="https://www.linkedin.com/in/tomreifenberg/">LinkedIn</a>
+      <li class="list-inline-item"> | </li> 
+      <a class="list-inline-item" href="https://github.com/tomreifenberg">Github</a>
+      <li class="list-inline-item"> | Chicago, IL</li>
+      <li class="list-inline-item"> | tomreifenberg@outlook.com</li>
+    </ul>
   </section>
   <section>
     <h2 class="title">Full Stack Web and Hybrid Mobile Applications Developer</h2>
-      <p>Full Stack web developer with focus on full stack JavaScript application and architectures. Well versed in a wide range of programming languages and experienced in every stage of the development life cycle.</p>
+      <p>Full Stack web developer with focus on full stack JavaScript application and architectures. Practiced in a wide range of programming languages and experienced in every stage of the development life cycle.</p>
 
     <ul>
       <li>Skilled in leadership roles, coordinating and implementing development efforts through design, architecture, testing, and support.</li>
@@ -56,21 +66,6 @@
 
 
   </div>
-
-  <!-- <section class="clearfix">
-    <h3 class="text-initial">Core Competencies</h3>
-
-    <ul class="cc-left">
-      <li>Full Stack Development</li>
-        <li>Front End Development</li>
-
-    </ul>
-
-    <ul class="cc-right">
-      <li>Hybrid Mobile Development</li>
-        <li>Server Side Development</li>
-    </ul>
-  </section> -->
 
 <section>
   <h3 class="title">Core Competencies</h3>
@@ -195,6 +190,11 @@
 </section>
 </main>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+
 <script>
 
   var toggleMenu = document.getElementById('toggleMenu');
@@ -213,3 +213,17 @@
 
     </body>
 </html>
+
+
+
+
+<!--Bootstrap layout-->
+
+<!-- <div class="container">
+  <p>Hello World, I'm a Bootstrap layout.</p>
+</div>
+<div class="row">
+<div class="col-md-4">Left Column</div>
+<div class="col-md-4">Center Column</div>
+<div class="col-md-4">Right Column</div>
+</div> -->
