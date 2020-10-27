@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 .avatar {
   border-radius: 50%;
   float: left;
@@ -36,7 +36,7 @@ section {
   }
   .the-inner h1{
   color: #ffffff;
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   font-weight: 800;
   line-height: 1.4;
   font-size: 2.1rem;
@@ -58,6 +58,9 @@ section {
     padding: 0 1rem 0 0;
   }
 
+  .title {
+    font-weight: bold;
+  }
 
   /* .icofont-linkedin:before {
     content: "\ed46";
